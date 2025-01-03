@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "husky"
   },
   "author": "Mobin Afshari",
   "license": "ISC",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "husky": "^9.1.7",
     "vite": "^6.0.7"
   }
 }
