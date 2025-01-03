@@ -2,7 +2,7 @@ import React from 'react';
 
 function Test() {
   const name = 'mobin';
-  return <div>{name} </div>;
+  return <h1>Hello {name || 'world'} </h1>;
 }
 
 export default Test;

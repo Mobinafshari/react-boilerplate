@@ -11,7 +11,9 @@
     "prepare": "husky",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "knip": "knip",
+    "analyze": "npx knip"
   },
   "author": "Mobin Afshari",
   "license": "ISC",
@@ -24,15 +26,22 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^22.10.5",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.3",
     "globals": "^15.14.0",
     "husky": "^9.1.7",
+    "jsdom": "^25.0.1",
+    "knip": "^5.41.1",
     "lint-staged": "^15.3.0",
     "prettier": "3.4.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.19.0",
-    "vite": "^6.0.7"
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
   }
 }
