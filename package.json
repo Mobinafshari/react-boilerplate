@@ -7,7 +7,11 @@
     "test": "vitest",
     "dev": "vite",
     "build": "vite build",
-    "prepare": "husky"
+    "preview": "vite preview",
+    "prepare": "husky",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write ."
   },
   "author": "Mobin Afshari",
   "license": "ISC",
@@ -26,6 +30,7 @@
     "globals": "^15.14.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
+    "prettier": "3.4.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.19.0",
     "vite": "^6.0.7"
