@@ -20,8 +20,8 @@ export default [
   },
   {
     rules: {
-      "no-unused-vars": "warn",
-      "@typescript-eslint/no-unused-vars": "warn",
+      "no-unused-vars": "error",
+      "@typescript-eslint/no-unused-vars": "error",
       "no-undef": "error",
       "prefer-const": "error",
       "react/react-in-jsx-scope": "off",
