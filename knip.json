@@ -1,0 +1,8 @@
+{
+  "entry": ["src/main.tsx"],
+  "project": ["src/**/*.tsx", "src/**/*.ts"],
+  "ignore": ["src/**/*.test.tsx", "src/**/*.spec.tsx", "dist/**"],
+  "dependencies": true,
+  "exports": true,
+  "files": true
+}
