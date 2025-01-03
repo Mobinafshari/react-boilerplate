@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Test() {
-  let name;
+  let namee;
   return <div>Tes...t</div>;
 }
 
