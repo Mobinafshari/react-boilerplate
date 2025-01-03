@@ -1,7 +1,8 @@
 import React from 'react';
 
 function Test() {
-  return <div>Test </div>;
+  const name = 'mobin';
+  return <div>{name} </div>;
 }
 
 export default Test;
