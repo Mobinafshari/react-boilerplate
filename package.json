@@ -1,0 +1,24 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "react-starter",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "Mobin Afshari",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  }
+}
