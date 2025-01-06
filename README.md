@@ -8,3 +8,5 @@
 <p>
 run npx taze for upgrading packages properly
 </p>
+<p><strong>PWA is ready</strong>, you can update manifest in vite.config.ts and replace variables that you want also replace icons in public/icons folder.
+</p>
