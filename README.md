@@ -10,3 +10,4 @@
 </p>
 <p><strong>PWA is ready</strong>, you can update manifest in vite.config.ts and replace variables that you want also replace icons in public/icons folder. 
 </p>
+<p>Replace public/favicons.ico for your custom favicon</p>
