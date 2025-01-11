@@ -2,7 +2,7 @@ import { retryDynamicImport } from '@utils/retryDynamicImport';
 import { Suspense, SVGProps } from 'react';
 
 const icons = {
-  // Send: retryDynamicImport(() => import('@icons/send.svg')),
+  Send: retryDynamicImport(() => import('@icons/send.svg?react')),
 };
 
 type CustomIcon = {

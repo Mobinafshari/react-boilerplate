@@ -4,19 +4,7 @@ import svgr from 'vite-plugin-svgr';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [
-    react(),
-    svgr({
-      svgrOptions: {
-        exportType: 'default',
-        ref: true,
-        svgo: false,
-        titleProp: true,
-      },
-      include: '**/*.svg',
-    }),
-    tsconfigPaths(),
-  ],
+  plugins: [react(), svgr(), tsconfigPaths()],
   build: {
     rollupOptions: {
       output: {
