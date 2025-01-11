@@ -25,6 +25,7 @@ export default [
       "no-undef": "error",
       "prefer-const": "error",
       "react/react-in-jsx-scope": "off",
+      "@typescript-eslint/no-explicit-any":"warn"
     },
   },
 ];

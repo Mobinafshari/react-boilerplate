@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), svgr()],
   build: {
     rollupOptions: {
       output: {
@@ -13,10 +14,10 @@ export default defineConfig({
             }
             return 'vendor';
           }
-          // if (id.includes('src/features/')) {
-          //   const feature = id.split('src/features/')[1].split('/')[0];
-          //   return `feature-${feature}`;
-          // }
+          if (id.includes('src/features/')) {
+            const feature = id.split('src/features/')[1].split('/')[0];
+            return `feature-${feature}`;
+          }
         },
       },
     },
