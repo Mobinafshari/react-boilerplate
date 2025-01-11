@@ -1,5 +1,11 @@
+import CustomIcon from '@assets/Icon';
+
 function App() {
-  return <div>app</div>;
+  return (
+    <div>
+      <CustomIcon icon="Send" svgProps={{ fill: 'Red' }} />
+    </div>
+  );
 }
 
 export default App;

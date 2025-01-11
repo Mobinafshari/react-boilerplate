@@ -1,9 +1,22 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import svgr from 'vite-plugin-svgr';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [react(), svgr()],
+  plugins: [
+    react(),
+    svgr({
+      svgrOptions: {
+        exportType: 'default',
+        ref: true,
+        svgo: false,
+        titleProp: true,
+      },
+      include: '**/*.svg',
+    }),
+    tsconfigPaths(),
+  ],
   build: {
     rollupOptions: {
       output: {
@@ -20,24 +33,6 @@ export default defineConfig({
           }
         },
       },
-    },
-  },
-  resolve: {
-    alias: {
-      '@': '/src',
-      '@styles': '/src/styles',
-      '@features': '/src/features',
-      '@assets': '/src/assets',
-      '@page': '/src/page',
-      '@components': '/src/components',
-      '@context': '/src/context',
-      '@data': '/src/data',
-      '@hooks': '/src/hooks',
-      '@layout': '/src/layout',
-      '@lib': '/src/lib',
-      '@services': '/src/services',
-      '@test': '/src/test',
-      '@utils': '/src/utils',
     },
   },
 });
