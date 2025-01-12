@@ -5,8 +5,8 @@ import pluginReact from "eslint-plugin-react";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  { ignores : ["node_modules" , "dist" , "cypress"]},
-  { files: ["src/**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
+  { ignores: ['node_modules', 'dist', 'cypress'] },
+  { files: ['src/**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
@@ -14,18 +14,19 @@ export default [
   {
     settings: {
       react: {
-        version: "detect",
+        version: 'detect',
       },
     },
   },
   {
     rules: {
-      "no-unused-vars": "warn",
-      "@typescript-eslint/no-unused-vars": "warn",
-      "no-undef": "error",
-      "prefer-const": "error",
-      "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/no-explicit-any":"warn"
+      'no-unused-vars': 'warn',
+      '@typescript-eslint/no-unused-vars': 'warn',
+      'no-undef': 'error',
+      'prefer-const': 'error',
+      'react/react-in-jsx-scope': 'off',
+      '@typescript-eslint/no-explicit-any': 'warn',
+      'no-constant-condition': 'off',
     },
   },
 ];

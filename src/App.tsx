@@ -1,12 +1,7 @@
-import CustomIcon from '@assets/Icon';
 import '@config/i18n';
 
 function App() {
-  return (
-    <div>
-      <CustomIcon icon="Send" svgProps={{ fill: 'Red' }} />
-    </div>
-  );
+  return <div>App</div>;
 }
 
 export default App;
