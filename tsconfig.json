@@ -17,7 +17,9 @@
       "@services/*": ["services/*"],
       "@test/*": ["test/*"],
       "@utils/*": ["utils/*"],
-      "@icons/*": ["assets/icons/*"]
+      "@locale/*": ["locale/*"],
+      "@config/*": ["config/*"],
+      "@icons/*": ["assets/icons/*"],
     },
     "jsx": "react-jsx",
     "module": "ESNext",
@@ -30,7 +32,9 @@
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "allowImportingTsExtensions" : true,
+    "noEmit": true
   },
   "include": ["src", "cypress"],
   "exclude": ["node_modules", "dist"]

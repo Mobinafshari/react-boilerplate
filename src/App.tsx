@@ -1,4 +1,5 @@
 import CustomIcon from '@assets/Icon';
+import '@config/i18n';
 
 function App() {
   return (
