@@ -14,3 +14,6 @@
 <p><strong>The default fonts</strong> have been set, to change them just replace your fonts in src/assets/fonts and then change _font.scss file in src/styles/base/_font.scss</p>
 <p>For icon handling add your svg to the icon folder in assets and import it in the <strong>Icon.tsx</strong> and use it with CustomIcon and icon prop.</p>
 <p>i18n file added also you have two files to define your texts there and consider adding RTL and LTR with your use cases for the project.</p>
+<p>For changing version and releasing first run <strong>npx changeset
+</strong> and choose your option (Patch , Minor and Major) then run <strong>npx changeset version
+</strong> to implement changes.</p>
