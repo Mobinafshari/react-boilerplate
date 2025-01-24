@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.9
+
+### Patch Changes
+
+- keywords added to package.json and deleted from user's project
+
 ## 0.0.8
 
 ### Patch Changes
