@@ -7,7 +7,7 @@ import testingLibrary from "eslint-plugin-testing-library";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   { ignores: ['node_modules', 'dist', 'cypress' ] },
-  { files: ['src/**/*.{js,mjs,cjs,ts,jsx,tsx}' , "test/"] },
+  { files: ['src/**/*.{js,mjs,cjs,ts,jsx,tsx}' , "test/**/test.{ts , tsx}"] },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
