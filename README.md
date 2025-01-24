@@ -2,7 +2,7 @@
 
 ![banner](https://github.com/user-attachments/assets/5e00cdb3-bb29-43f7-a906-981f26b48ed0)
 
-<p>To start your project with this boilerplate please run<strong>npx react-rayka project-name</strong> and start Coding!</p>
+<p>To start your project with this boilerplate please run <strong>npx react-rayka project-name</strong> and start Coding!</p>
 <p>When you are adding and committing files to git, <strong>lint-staged</strong> will run and it will lint and format changes and then building entire application then allow you to push to git.</p>
 <p>use <strong>npm run analyze</strong> to figure out about unused files and packages.</p>
 <p><strong>Cypress</strong> for E2E test and <strong>vitest</strong> for unit test prepared.</p>

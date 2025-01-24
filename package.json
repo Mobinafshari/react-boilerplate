@@ -1,6 +1,6 @@
 {
   "name": "react-rayka",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "react-starter",
   "main": "cli.js",
   "type": "module",
@@ -17,7 +17,8 @@
     "lint:fix": "eslint --fix",
     "format": "prettier --write .",
     "knip": "knip",
-    "analyze": "npx knip"
+    "analyze": "npx knip",
+    "release": "npx changeset && npx changeset version"
   },
   "author": "Mobin Afshari",
   "license": "ISC",
