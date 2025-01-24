@@ -1,6 +1,6 @@
 {
   "name": "react-rayka",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "react-starter",
   "main": "cli.js",
   "type": "module",

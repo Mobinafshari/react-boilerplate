@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.8
+
+### Patch Changes
+
+- cli improved to delete readme file and some dependencies
+
 ## 0.0.7
 
 ### Patch Changes
