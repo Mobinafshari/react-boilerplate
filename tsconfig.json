@@ -15,11 +15,10 @@
       "@layout/*": ["layout/*"],
       "@lib/*": ["lib/*"],
       "@services/*": ["services/*"],
-      "@test/*": ["test/*"],
       "@utils/*": ["utils/*"],
       "@locale/*": ["locale/*"],
       "@config/*": ["config/*"],
-      "@icons/*": ["assets/icons/*"],
+      "@icons/*": ["assets/icons/*"]
     },
     "jsx": "react-jsx",
     "module": "ESNext",
@@ -33,9 +32,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "allowImportingTsExtensions" : true,
-    "noEmit": true
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": ["vitest/globals"]
   },
-  "include": ["src", "cypress"],
+  "include": ["src", "cypress" , "test"],
   "exclude": ["node_modules", "dist"]
 }

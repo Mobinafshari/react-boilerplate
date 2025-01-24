@@ -1,5 +1,17 @@
 # react-rayka
 
+## 0.0.11
+
+### Patch Changes
+
+- rimarf removed
+
+## 0.0.10
+
+### Patch Changes
+
+- rimarf remove from user's project's dependencies
+
 ## 0.0.9
 
 ### Patch Changes
