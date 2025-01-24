@@ -1,12 +1,12 @@
 {
-    "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
-    "liveServer.settings.fullReload": true ,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true ,
-    "workbench.tree.indent": 15,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.colorCustomizations": {
-      "tree.indentGuidesStroke": "#05ef3c"
-    }
-
+  "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
+  "liveServer.settings.fullReload": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#05ef3c"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

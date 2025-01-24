@@ -36,6 +36,6 @@
     "noEmit": true,
     "types": ["vitest/globals"]
   },
-  "include": ["src", "cypress" , "test"],
+  "include": ["src", "cypress", "test", "src/**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
