@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.12
+
+### Patch Changes
+
+- eslint and test error fixed
+
 ## 0.0.11
 
 ### Patch Changes
