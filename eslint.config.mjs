@@ -13,17 +13,17 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
-  {
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-        ...globals.node,
-        it: 'readonly',
-        expect: 'readonly',
-        describe: 'readonly',
-      },
-    },
-  },
+  // {
+  //   languageOptions: {
+  //     globals: {
+  //       ...globals.browser,
+  //       ...globals.node,
+  //       it: 'readonly',
+  //       expect: 'readonly',
+  //       describe: 'readonly',
+  //     },
+  //   },
+  // },
   {
     plugins: {
       'testing-library': fixupPluginRules({
