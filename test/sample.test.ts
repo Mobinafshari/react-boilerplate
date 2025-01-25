@@ -5,6 +5,6 @@ describe('group', () => {
 });
 describe('group', () => {
   it('should', () => {
-    expect(0).toBeFalsyyy();
+    expect(0).toBeFalsyy();
   });
 });
