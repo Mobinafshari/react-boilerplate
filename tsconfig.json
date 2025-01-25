@@ -18,7 +18,8 @@
       "@utils/*": ["utils/*"],
       "@locale/*": ["locale/*"],
       "@config/*": ["config/*"],
-      "@icons/*": ["assets/icons/*"]
+      "@icons/*": ["assets/icons/*"],
+      "@types/*": ["services/types/*"],
     },
     "jsx": "react-jsx",
     "module": "ESNext",
