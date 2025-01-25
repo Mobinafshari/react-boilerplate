@@ -19,7 +19,6 @@ export default [
         ...globals.browser,
         ...globals.node,
         it: 'readonly',
-        jest: 'readonly',
         test: 'readonly',
         expect: 'readonly',
         indexedDB: 'readonly',
