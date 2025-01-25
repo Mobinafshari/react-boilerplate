@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.11",
+    "@eslint/compat": "^1.2.5",
     "@eslint/js": "^9.17.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
