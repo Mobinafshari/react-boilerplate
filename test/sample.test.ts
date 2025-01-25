@@ -5,7 +5,9 @@ describe('group', () => {
 });
 
 describe('group', () => {
+  const t = 'hashem';
+  t = 'naser';
   it('should', () => {
-    expect(0).toBeFalsyy();
+    expect(0).toBeFalsy();
   });
 });
