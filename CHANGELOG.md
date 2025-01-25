@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.13
+
+### Patch Changes
+
+- types folder added
+
 ## 0.0.12
 
 ### Patch Changes
