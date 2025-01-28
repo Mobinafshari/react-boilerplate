@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.15
+
+### Patch Changes
+
+- reset css file removed
+
 ## 0.0.14
 
 ### Patch Changes
