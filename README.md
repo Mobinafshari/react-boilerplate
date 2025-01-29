@@ -1,4 +1,4 @@
-# 🚀 React Starter for Rayka Noor 8  
+# 🚀 React Starter for Raika  
 
 ![banner](https://github.com/user-attachments/assets/5e00cdb3-bb29-43f7-a906-981f26b48ed0)  
 
@@ -18,7 +18,8 @@ Then, start coding! 🚀
 ## 🔧 Features & Setup  
 
 ### ✅ **Pre-Commit Linting & Formatting**  
-When committing files, **lint-staged** will automatically:  
+When committing files, **husky** will automatically:  
+✔️ Run lint-staged  
 ✔️ Lint & format changes  
 ✔️ Build the project  
 ✔️ Allow pushing only if everything passes  

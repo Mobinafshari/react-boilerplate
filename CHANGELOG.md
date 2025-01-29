@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.16
+
+### Patch Changes
+
+- some libraries added
+
 ## 0.0.15
 
 ### Patch Changes
