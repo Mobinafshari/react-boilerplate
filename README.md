@@ -1,18 +1,75 @@
-<h1>This is react starter projects for me and our company.</h1>
+# 🚀 React Starter for Rayka Noor 8  
 
-![banner](https://github.com/user-attachments/assets/5e00cdb3-bb29-43f7-a906-981f26b48ed0)
+![banner](https://github.com/user-attachments/assets/5e00cdb3-bb29-43f7-a906-981f26b48ed0)  
 
-<p>To start your project with this boilerplate please run <strong>npx react-rayka project-name</strong> and start Coding!</p>
-<p>When you are adding and committing files to git, <strong>lint-staged</strong> will run and it will lint and format changes and then building entire application then allow you to push to git.</p>
-<p>use <strong>npm run analyze</strong> to figure out about unused files and packages.</p>
-<p><strong>Cypress</strong> for E2E test and <strong>vitest</strong> for unit test prepared.</p>
-<p>
-<strong>run npx taze</strong> for upgrading packages properly
-</p>
-<p><strong>PWA is ready</strong>, you can update manifest in vite.config.ts and replace variables that you want also replace icons in public/icons folder. 
-</p>
-<p>Replace public/favicons.ico for your custom favicon</p>
-<p><strong>The default fonts</strong> have been set, to change them just replace your fonts in src/assets/fonts and then change _font.scss file in src/styles/base/_font.scss</p>
-<p>For icon handling add your svg to the icon folder in assets and import it in the <strong>Icon.tsx</strong> and use it with CustomIcon and icon prop.</p>
-<p>i18n file added also you have two files to define your texts there and consider adding RTL and LTR with your use cases for the project.</p>
-<p>For changing version and releasing run <strong>npm run release</strong> and choose your option.</p>
+A powerful and well-structured React boilerplate for our company, designed to streamline development and enforce best practices.  
+
+---
+
+## 📦 Getting Started  
+To create a new project using this boilerplate, run:  
+```sh
+npx react-raika project-name
+```  
+Then, start coding! 🚀  
+
+---
+
+## 🔧 Features & Setup  
+
+### ✅ **Pre-Commit Linting & Formatting**  
+When committing files, **lint-staged** will automatically:  
+✔️ Lint & format changes  
+✔️ Build the project  
+✔️ Allow pushing only if everything passes  
+
+### 📊 **Analyze Unused Files & Packages**  
+Run:  
+```sh
+npm run analyze
+```  
+This helps identify **unused files and dependencies**.  
+
+### 🧪 **Testing Setup**  
+- **Cypress** → Preconfigured for **E2E testing** 🛠️  
+- **Vitest** → Ready for **unit testing** ⚡  
+
+### 🚀 **Upgrade Dependencies**  
+Easily upgrade your dependencies with:  
+```sh
+npx taze
+```  
+
+### 📱 **PWA Support**  
+- Modify the **manifest and Service Worker** in `public folder`  
+- Update icons in `public/icons/`  
+
+### 🎨 **Custom Styling & Fonts**  
+- Replace fonts in `src/assets/fonts/`  
+- Update `_font.scss` in `src/styles/base/_font.scss`  
+
+### 🖼️ **Icon Handling**  
+1. Add your **SVGs** to `src/assets/icons/`  
+2. Import them in `Icon.tsx`  
+3. Use them with `<CustomIcon icon="your-icon" />`  
+
+### 🌍 **i18n & RTL Support**  
+- **Multi-language support** included  
+- Configure **RTL/LTR** based on your project’s needs  
+
+### 🔖 **Versioning & Releases**  
+Run:  
+```sh
+npm run release
+```  
+Select the version type, and let the script handle the rest!  
+
+---
+
+## 📚 Preinstalled Libraries  
+This boilerplate includes essential tools and configurations to **boost productivity**.  
+
+---
+
+🎯 Ready to start? **Run the command, set up your project, and build amazing things!** 🚀
+
