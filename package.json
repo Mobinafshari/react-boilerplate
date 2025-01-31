@@ -1,6 +1,6 @@
 {
   "name": "react-raika",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "react-starter",
   "main": "cli.js",
   "type": "module",
