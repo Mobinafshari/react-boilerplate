@@ -20,13 +20,11 @@ if ('serviceWorker' in navigator) {
 }
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
-    <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools initialIsOpen={false} />
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-      <Toaster />
-    </QueryClientProvider>
-  </BrowserRouter>
+  <QueryClientProvider client={queryClient}>
+    <ReactQueryDevtools initialIsOpen={false} />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+    <Toaster />
+  </QueryClientProvider>
 );
