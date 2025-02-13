@@ -26,10 +26,6 @@ export default defineConfig({
             const feature = id.split('src/features/')[1].split('/')[0];
             return `feature-${feature}`;
           }
-          if (id.includes('src/components/')) {
-            const component = id.split('src/components/')[1].split('/')[0];
-            return `component-${component}`;
-          }
         },
         chunkFileNames: 'chunks/[name]-[hash].js',
         entryFileNames: 'entries/[name]-[hash].js',
