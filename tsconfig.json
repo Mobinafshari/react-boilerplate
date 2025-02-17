@@ -7,7 +7,7 @@
       "@styles/*": ["styles/*"],
       "@features/*": ["features/*"],
       "@assets/*": ["assets/*"],
-      "@page/*": ["page/*"],
+      "@pages/*": ["pages/*"],
       "@components/*": ["components/*"],
       "@context/*": ["context/*"],
       "@data/*": ["data/*"],
@@ -20,6 +20,9 @@
       "@config/*": ["config/*"],
       "@icons/*": ["assets/icons/*"],
       "@types/*": ["services/types/*"],
+      "@routes/*": ["routes/*"],
+      "@store/*": ["store/*"],
+      "@constants/*": ["constants/*"]
     },
     "jsx": "react-jsx",
     "module": "ESNext",
@@ -38,5 +41,5 @@
     "types": ["vitest/globals"]
   },
   "include": ["src", "cypress", "test", "src/**/*.d.ts"],
-  "exclude": ["node_modules", "dist" , "cypress.config.ts" , "cypress"]
+  "exclude": ["node_modules", "dist", "cypress.config.ts", "cypress"]
 }
