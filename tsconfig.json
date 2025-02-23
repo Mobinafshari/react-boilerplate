@@ -19,7 +19,6 @@
       "@locale/*": ["locale/*"],
       "@config/*": ["config/*"],
       "@icons/*": ["assets/icons/*"],
-      "@types/*": ["services/types/*"],
       "@routes/*": ["routes/*"],
       "@store/*": ["store/*"],
       "@constants/*": ["constants/*"]
