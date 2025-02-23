@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.24
+
+### Patch Changes
+
+- tsconfig issue for not impoeting @types =>> deleted , later should fix it somehow , @types was reserved keyword
+
 ## 0.0.23
 
 ### Patch Changes
