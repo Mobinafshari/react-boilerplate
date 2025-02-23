@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.23
+
+### Patch Changes
+
+- error boundary added
+
 ## 0.0.22
 
 ### Patch Changes
