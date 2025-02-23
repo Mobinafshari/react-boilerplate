@@ -6,6 +6,8 @@ import { queryClient } from '@lib/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
+import { ErrorBoundary } from 'react-error-boundary';
+import { BrowserRouter } from 'react-router';
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
@@ -19,11 +21,15 @@ if ('serviceWorker' in navigator) {
 }
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <QueryClientProvider client={queryClient}>
-    <ReactQueryDevtools initialIsOpen={false} />
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-    <Toaster />
-  </QueryClientProvider>
+  <BrowserRouter>
+    <ErrorBoundary fallback={<h1>Something went wrong.</h1>}>
+      <QueryClientProvider client={queryClient}>
+        <ReactQueryDevtools initialIsOpen={false} />
+        <React.StrictMode>
+          <App />
+        </React.StrictMode>
+        <Toaster />
+      </QueryClientProvider>
+    </ErrorBoundary>
+  </BrowserRouter>
 );
