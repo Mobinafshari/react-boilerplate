@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.25
+
+### Patch Changes
+
+- css reset changed
+
 ## 0.0.24
 
 ### Patch Changes
