@@ -1,49 +1,75 @@
-/* Reset */
+/* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 100%;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
 }
 
 body {
-  margin: 0;
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
 }
 
+/* 6. Improve media defaults */
 img,
-video {
+picture,
+video,
+canvas,
+svg {
+  display: block;
   max-width: 100%;
-  height: auto;
 }
 
-ul,
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button,
+/* 7. Inherit fonts for form controls */
 input,
+button,
 textarea,
 select {
   font: inherit;
-  margin: 0;
-  border: none;
-  padding: 0;
 }
 
-button,
-a {
-  cursor: pointer;
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
 }
