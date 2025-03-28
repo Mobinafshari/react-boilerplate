@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.26
+
+### Patch Changes
+
+- handling chunk size remove
+
 ## 0.0.25
 
 ### Patch Changes
