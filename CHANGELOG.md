@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.28
+
+### Patch Changes
+
+- Chunk size handling fixed and react bundled wuth vendor
+
 ## 0.0.27
 
 ### Patch Changes
