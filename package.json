@@ -17,7 +17,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky",
     "lint": "eslint",
