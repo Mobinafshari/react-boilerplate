@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.27
+
+### Patch Changes
+
+- tsc command added to build statement
+
 ## 0.0.26
 
 ### Patch Changes
