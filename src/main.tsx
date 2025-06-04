@@ -8,17 +8,18 @@ import React from 'react';
 import { Toaster } from 'react-hot-toast';
 import { ErrorBoundary } from 'react-error-boundary';
 import { BrowserRouter } from 'react-router';
+import ThemeProvider from '@context/ThemeProvider';
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-    .register('/sw.js')
-    .then((registration) => {
-      console.log('Service Worker registered:', registration);
-    })
-    .catch((error) => {
-      console.error('Service Worker registration failed:', error);
-    });
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker
+//     .register('/sw.js')
+//     .then((registration) => {
+//       console.log('Service Worker registered:', registration);
+//     })
+//     .catch((error) => {
+//       console.error('Service Worker registration failed:', error);
+//     });
+// }
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -26,7 +27,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools initialIsOpen={false} />
         <React.StrictMode>
-          <App />
+          <ThemeProvider>
+            <App />
+          </ThemeProvider>
         </React.StrictMode>
         <Toaster />
       </QueryClientProvider>
