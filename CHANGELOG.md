@@ -1,5 +1,11 @@
 # react-rayka
 
+## 0.0.30
+
+### Patch Changes
+
+- Theme Provider related to MUI and RAUI added
+
 ## 0.0.29
 
 ### Patch Changes
